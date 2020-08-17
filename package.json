@@ -1,7 +1,7 @@
 {
-  "name": "com.intervr.if.glove",
-  "displayName": "iNTERVR IF Glove",
-  "description": "iNTERVR Framework for Glove",
+  "name": "com.intervr.if.vr.glove",
+  "displayName": "iNTERVR IF VR Glove",
+  "description": "iNTERVR Framework for VR Glove",
   "version": "0.2.0",
   "unity": "2020.1",
   "keywords": [],

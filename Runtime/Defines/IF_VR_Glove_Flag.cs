@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace InterVR.IF.Glove.Defines
+namespace InterVR.IF.VR.Glove.Defines
 {
     // The flags used to determine how an object is attached to the hand.
     [Flags]
-    public enum IF_Glove_HandAttachmentFlags
+    public enum IF_VR_Glove_HandAttachmentFlags
     {
         SnapOnAttach = 1 << 0, // The object should snap to the position of the specified attachment point on the hand.
         DetachOthers = 1 << 1, // Other objects attached to this hand will be detached.

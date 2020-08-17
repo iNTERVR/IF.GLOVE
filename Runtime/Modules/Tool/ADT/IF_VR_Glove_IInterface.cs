@@ -1,10 +1,10 @@
-﻿using InterVR.IF.Glove.Defines;
+﻿using InterVR.IF.VR.Glove.Defines;
 using UniRx;
 using UnityEngine;
 
-namespace InterVR.IF.Glove.Modules
+namespace InterVR.IF.VR.Glove.Modules
 {
-    public interface IF_Glove_IInterface
+    public interface IF_VR_Glove_IInterface
     {
         //FloatReactiveProperty HandYawOffsetLeft { get; }
         //FloatReactiveProperty HandYawOffsetRight { get; }

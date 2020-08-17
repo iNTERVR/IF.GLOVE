@@ -1,12 +1,11 @@
-﻿using InterVR.IF.Glove.Defines;
-using System;
+﻿using System;
 using UnityEngine;
 using Zenject;
 
-namespace InterVR.IF.Glove.Installer
+namespace InterVR.IF.VR.Glove.Installer
 {
-    [CreateAssetMenu(fileName = "IF_Glove_Settings", menuName = "InterVR/IF/Glove/Settings")]
-    public class IF_Glove_Installer : ScriptableObjectInstaller<IF_Glove_Installer>
+    [CreateAssetMenu(fileName = "IF_VR_Glove_Settings", menuName = "InterVR/IF/VR/Glove/Settings")]
+    public class IF_VR_Glove_Installer : ScriptableObjectInstaller<IF_VR_Glove_Installer>
     {
 #pragma warning disable 0649
         [SerializeField]
@@ -21,7 +20,7 @@ namespace InterVR.IF.Glove.Installer
         [Serializable]
         public class Settings
         {
-            public string Name = "IF Glove Installer";
+            public string Name = "IF VR Glove Installer";
         }
     }
 }
