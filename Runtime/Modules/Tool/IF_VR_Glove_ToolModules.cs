@@ -7,7 +7,6 @@ namespace InterVR.IF.VR.Glove.Modules
     {
         public void Setup(IDependencyContainer container)
         {
-            container.Bind<IF_VR_Glove_IInterface, IF_VR_Glove_Interface>();
         }
     }
 }
