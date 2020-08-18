@@ -1,6 +1,4 @@
 ﻿using EcsRx.Groups;
-using EcsRx.Events;
-using UniRx;
 using System.Collections.Generic;
 using System;
 using EcsRx.Extensions;
@@ -9,7 +7,6 @@ using EcsRx.Unity.Extensions;
 using InterVR.IF.VR.Components;
 using EcsRx.Plugins.ReactiveSystems.Systems;
 using EcsRx.Entities;
-using UniRx.Triggers;
 using EcsRx.Plugins.Views.Components;
 using InterVR.IF.VR.Modules;
 using InterVR.IF.VR.Glove.Modules;
@@ -20,7 +17,7 @@ using InterVR.IF.VR.Glove.Components;
 
 namespace InterVR.IF.VR.Glove.Systems
 {
-    public class IF_VR_HandSystem : ISetupSystem, ITeardownSystem
+    public class IF_VR_Glove_HandSystem : ISetupSystem, ITeardownSystem
     {
         public IGroup Group => new Group(typeof(IF_VR_Hand), typeof(ViewComponent));
 
@@ -30,7 +27,7 @@ namespace InterVR.IF.VR.Glove.Systems
         private readonly IF_VR_Glove_IInterface vrGloveInterface;
         private readonly IF_IGameObjectTool gameObjectTool;
 
-        public IF_VR_HandSystem(IEntityDatabase entityDatabase,
+        public IF_VR_Glove_HandSystem(IEntityDatabase entityDatabase,
             IF_VR_IInterface vrInterface,
             IF_VR_Glove_IInterface vrGloveInterface,
             IF_IGameObjectTool gameObjectTool)
