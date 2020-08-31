@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this package will be documented in this file.
 
+## [1.2.0] - 2020-08-31
+
+### Removed
+
+- Remove Hand Yaw Custom
+
 ## [1.1.0] - 2020-08-21
 
 ### Changed

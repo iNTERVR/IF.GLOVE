@@ -7,8 +7,6 @@ namespace InterVR.IF.VR.Glove.Modules
 {
     public interface IF_VR_Glove_IInterface
     {
-        FloatReactiveProperty HandYawOffsetLeft { get; }
-        FloatReactiveProperty HandYawOffsetRight { get; }
         int PlayerNumber { get; }
 
         Transform GetRootTransform();
