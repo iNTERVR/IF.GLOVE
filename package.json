@@ -2,7 +2,7 @@
   "name": "com.intervr.if.vr.glove",
   "displayName": "iNTERVR IF VR Glove",
   "description": "iNTERVR Framework for VR Glove",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "unity": "2020.1",
   "keywords": [],
   "homepage": "https://github.com/iNTERVR/IF.VR.Glove#readme",
@@ -20,7 +20,7 @@
     "url": "https://github.com/iNTERVR"
   },
   "dependencies": {
-    "com.intervr.if.vr": "1.2.0"
+    "com.intervr.if.vr": "1.2.1"
   },
   "files": [
     "*.md",
